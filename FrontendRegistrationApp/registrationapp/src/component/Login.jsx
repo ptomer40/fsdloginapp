@@ -10,7 +10,7 @@ const Login = () => {
      const password=e.target.password.value;
      console.log("Email:"+email+ " "+password);
 
-         const response=await fetch("http://localhost:3001/login",{
+         const response=await fetch("https://fsdloginapp.onrender.com/login",{
             method:"POST",
             body:JSON.stringify({email,password}),
             headers:{

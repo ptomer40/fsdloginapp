@@ -10,7 +10,7 @@ function Registration() {
 
        console.log("Email:"+email+ " "+password);
   
-           const response=await fetch("http://localhost:3001/registration",{
+           const response=await fetch("https://fsdloginapp.onrender.com/registration",{
               method:"POST",
               body:JSON.stringify({name,email,password}),
               headers:{

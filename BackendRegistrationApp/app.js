@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
                         return res.end(JSON.stringify({msg:'user already exists'}));
                      }
                      users.push({name,email,password});
-                    await fs.writeFile("clientData.json",JSON.stringify(users,null,2)) // null:no filter, complete data, 2-> 2 spaces in records
+                    await fs.writeFile("clientData.json",JSON.stringify(users,null,2)) // null:no filter, complete data, 2-> 2 spaces from left indentation in records
                 
 
                 

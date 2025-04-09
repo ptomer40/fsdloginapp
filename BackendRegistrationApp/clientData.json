@@ -13,5 +13,20 @@
     "name": "Amit Kumar",
     "email": "amit@jio.com",
     "password": "9090"
+  },
+  {
+    "name": "RAhul",
+    "email": "ptomer41@yahoo.com",
+    "password": "12345"
+  },
+  {
+    "name": "Vansh Tomer",
+    "email": "vannu@gmail.com",
+    "password": "tomer"
+  },
+  {
+    "name": "Ansh Tomer",
+    "email": "ansh@gmail.com",
+    "password": "7875"
   }
 ]

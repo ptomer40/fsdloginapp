@@ -1,9 +1,8 @@
-import React from 'react'
 
-function Dashboard
-() {
+
+function Dashboard() {
   return (
-    <div style='color:cherry'>
+    <div>
         <h2>Welcome to ABES Engineering College</h2>       
     </div>
   )

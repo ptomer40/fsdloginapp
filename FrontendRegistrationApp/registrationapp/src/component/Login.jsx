@@ -23,6 +23,7 @@ const Login = () => {
         if(data.message=='success'){
         //navigate('/dashboard');
           alert("Login Success");
+          navigate('/dashboard');
         }else{
           alert(data.message);
           return false;
